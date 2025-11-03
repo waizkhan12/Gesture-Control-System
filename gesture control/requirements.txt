@@ -1,0 +1,15 @@
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+pyautogui>=0.9.54
+numpy>=1.24.0
+pygetwindow>=0.0.9
+
+# Development and testing (optional)
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Platform-specific optional packages
+pywin32>=306; platform_system == "Windows"
+pywinauto>=0.6.8; platform_system == "Windows"
+pyobjc-core>=10.2; platform_system == "Darwin"
+pyobjc-framework-Quartz>=10.2; platform_system == "Darwin"
